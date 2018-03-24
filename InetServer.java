@@ -110,7 +110,7 @@ public class InetServer {
 		//This variable represents a Server Socket that is constructed on a given port and with a given queue length
 		ServerSocket servsock = new ServerSocket(port, q_len);
 
-		System.out.println("Clark Elliott's Inet server 1.8 starting up, listening at port 50001.\n");	//Informative print statement
+		System.out.println("Server starting up, listening at port 50001.\n");	//Informative print statement
 
 		/* This loop runs for the live of the program, waiting for client requests, and then calling the accept() method
 		/  on there server socket which returns a new socket to be used. For each request, a new Worker class is started in

@@ -23,7 +23,7 @@ public class InetClient {
 		/* Print info to screen (Assignment title, serverName to connect to and 
 		/  port number to connect to). I changed the port to 50001.
 		*/
-		System.out.println("Clark Elliott's Inet Client, 1.8.\n");
+		System.out.println("Client starting up.\n");
 		System.out.println("Using server: " + serverName + ", Port: 50001");
 
 		//Setup a buffered reader to read characters from input stream
